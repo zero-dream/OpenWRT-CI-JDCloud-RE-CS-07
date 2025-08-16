@@ -37,8 +37,8 @@ jobs:
 
       matrix:
         CONFIG: [IPQ60XX-WiFi_NO]
-        SOURCE: [VIKINGYFY/immortalwrt]
-        BRANCH: [main]
+        SOURCE: [zero-dream/immortalwrt]
+        BRANCH: [jdcloud-re-cs-07]
 
     # 调用公用编译核心
     uses: ./.github/workflows/CoreOpenwrt.yml
